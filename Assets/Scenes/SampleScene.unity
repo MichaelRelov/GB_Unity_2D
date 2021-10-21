@@ -385,7 +385,7 @@ Transform:
   m_LocalScale: {x: 1.5533607, y: 1.5533607, z: 1.5533607}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &340781536
 GameObject:
@@ -424,7 +424,7 @@ Transform:
   - {fileID: 393777774}
   - {fileID: 1547783907}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &393777773 stripped
 MonoBehaviour:
@@ -678,6 +678,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1063072525387372591, guid: c1fee1b1b946ea24f941423a067a87be, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063072525387372591, guid: c1fee1b1b946ea24f941423a067a87be, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.7730001
       objectReference: {fileID: 0}
@@ -843,7 +847,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1731237210
 Rigidbody2D:
@@ -1097,11 +1101,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5216661346508418328, guid: d16fcffe98e2e6c44be03306643aebde, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.565
+      value: -2.351
       objectReference: {fileID: 0}
     - target: {fileID: 5216661346508418328, guid: d16fcffe98e2e6c44be03306643aebde, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.228
+      value: 0.047
       objectReference: {fileID: 0}
     - target: {fileID: 5216661346508418328, guid: d16fcffe98e2e6c44be03306643aebde, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1139,6 +1143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5696259027313017669, guid: d16fcffe98e2e6c44be03306643aebde, type: 3}
+      propertyPath: _walkSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 6318424665169163806, guid: d16fcffe98e2e6c44be03306643aebde, type: 3}
       propertyPath: m_Constraints
       value: 4
@@ -1158,7 +1166,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7698449142652066971, guid: f1f8ce98130b6734abf7ce124ae1a3f4, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7698449142652066971, guid: f1f8ce98130b6734abf7ce124ae1a3f4, type: 3}
       propertyPath: m_LocalPosition.x
